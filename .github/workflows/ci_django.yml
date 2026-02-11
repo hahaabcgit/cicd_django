@@ -43,8 +43,8 @@ jobs:
 #
 #      # 6️⃣ Docker 이미지 빌드
 #      - name: Build Docker Image
-#        run: docker build -t hahaabcgit/cicd-django:latest -f DjangoDockerfile .
+#        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/cicd-django:latest -f DjangoDockerfile .
 #
 #      # 7️⃣ Docker 이미지 Push
 #      - name: Push Docker Image
-#        run: docker push hahaabcgit/cicd-django:latest
+#        run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd-django:latest
