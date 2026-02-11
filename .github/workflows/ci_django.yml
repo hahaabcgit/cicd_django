@@ -47,4 +47,4 @@ jobs:
 #
 #      # 7️⃣ Docker 이미지 Push
 #      - name: Push Docker Image
-#        run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd-django:latest
+#        run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd-django:latest   a
