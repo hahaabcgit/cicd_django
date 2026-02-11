@@ -23,3 +23,4 @@ jobs:
             docker stop cntr-django || true
             docker rm cntr-django || true
             docker run -d --name cntr-django -p 80:8000 ${{ secrets.DOCKER_USERNAME }}/cicd-django:latest
+#            test
